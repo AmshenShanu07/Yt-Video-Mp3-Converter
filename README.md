@@ -33,7 +33,7 @@ example
 mv your-file.mp4 /sdcard
 
 
-after this you can play all the things 
+after this you can play all the things enjoy 
 
 
 # FINISHED 
