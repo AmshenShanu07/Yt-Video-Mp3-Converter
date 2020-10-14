@@ -3,20 +3,20 @@
 
 # HOW TO USE
 
-cd Yt-Video-Mp3-Converter
 
-ls
+```git clone  ```
+```cd Yt-Video-Mp3-Converter```
+```ls```
+```python 
+
 
 you can choose any
 
 
- your choice 
+your choice 
 
 
-for downlode youtube videos choose [ Yt-Downloder.py ]
 
-
-for convert youtube videos to mp3 choose [ Yt-Mp3-Converter.py ]
 
 
 after converting and downloding 

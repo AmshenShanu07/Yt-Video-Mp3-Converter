@@ -54,7 +54,7 @@ params ={
     'format': 'bestaudio/best',
     'postprocessors':[{
         'key': 'FFmpegExtractAudio',
-        'preferredcodec': 'mp3',
+        'preferredcodec': 'MP3',
         'preferredquality': '192',
     }],
     

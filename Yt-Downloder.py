@@ -6,13 +6,13 @@ import youtube_dl
 print("\033[1;32;40m")
 os.system('clear')
 time.sleep(2)
-print (" YOUTUBE VIDEO  DOWNLODER  ")
+print (" YOUTUBE VIDEO  DOWNLODER")
 print ("########################################")
 time.sleep(3)
 print ( "_______________________________ " )
 print ( "|  Coded by H3LL0-H4CK3R       |" )
 print ( "|  Thanks for using my tool    |" )
-print ( "|______________________________|" )
+print (  "|  Thanks for using my tool    |" )
 time.sleep(3)
 print("\033[1;33;40m ")
 print("###################################")
@@ -23,17 +23,19 @@ time.sleep(3)
 print("Please Wait")
 print("\033[1;31;40m")
 time.sleep(2.5)
-def spinning_cursor():
-    while True:
-        for cursor in '|/-\\':
-            yield cursor
-spinner = spinning_cursor()
-for _ in range(50):
-    sys.stdout.write(next(spinner))
-    sys.stdout.flush()
-    time.sleep(0.1)
-    sys.stdout.write('\b')
-time.sleep(3.5)
+def load():
+    def spinning_cursor():
+        while True:
+            for cursor in '|/-\\':
+                yield cursor
+    spinner = spinning_cursor()
+    for _ in range(50):
+        sys.stdout.write(next(spinner))
+        sys.stdout.flush()
+        time.sleep(0.1)
+        sys.stdout.write('\b')
+load()
+time.sleep(3)
 print("\033[1;32;40m")
 time.sleep(3)
 print("###################################")
