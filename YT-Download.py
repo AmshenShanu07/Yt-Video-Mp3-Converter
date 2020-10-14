@@ -8,14 +8,15 @@ import youtube_dl
 def banner():
     print("\033[1;32;40m")
     os.system('clear')
-    time.sleep(1)
     print (" YOUTUBE VIDEO TO MP3 CONVERTER ")
     print ("########################################")
-    time.sleep(1)
-    print ( "_______________________________ " )
-    print ( "|  Coded by H3LL0-H4CK3R       |" )
-    print ( "|  Thanks for using my tool    |" )
-    print ( "|______________________________|" )
+    print ( """
+            _______________________________ 
+            |                              |
+            |  Coded by H3LL0-H4CK3R       | 
+            |  Thanks for using my tool    |
+            |______________________________|\n""")
+    print("###################################\n")
     time.sleep(1)
 
 def load():
@@ -31,16 +32,20 @@ def load():
         sys.stdout.write('\b')
 
 def downloadVideo():
+    print("\033[1;32;40m")
     print("DOWNLODE YOUTUBE VIDEOS WITH MY TOOL ")
     print("\033[1;31;40m")
     time.sleep(1)
+    print("\033[1;32;40m")
     print("###################################")
     print("\033[1;32;40m")
     time.sleep(1)
+    print("\033[1;32;40m")
     link = input("Enter Your Link Here :  ")
     print("\033[1;36;40m")
     print ("Please wait")
     time.sleep(1)
+    print("\033[1;32;40m")
     print("Downloding...")
     YouTube(link).streams.first().download()
     print("\033[1;35;40m")
@@ -50,6 +55,7 @@ def downloadVideo():
     print("PROGRAM FINISHED")
 
 def downloadMusic():
+    print("\033[1;32;40m")
     print("###################################")
     print("\033[1;36;40m")
     time.sleep(1)
@@ -63,6 +69,7 @@ def downloadMusic():
     print("\033[1;36;40m")
     print ("Please wait")
     time.sleep(1)
+    print("\033[1;32;40m")
     print("Converting...")
 
     params ={
@@ -88,6 +95,7 @@ def downloadMusic():
 
 def main():
     banner()
+    load()
     print("[1]Download Video   [2]Download Music")
     print('')
     option=input('Enter the option:')
